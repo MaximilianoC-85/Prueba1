@@ -208,3 +208,40 @@ footer p {
     font-size: 0.9rem;
     color: #D98D04;
 }
+@media (max-width: 1024px) {
+    .noticias-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    .noticia-principal {
+      order: 0;
+    }
+    .noticia-principal img {
+        width: 100%;
+    }
+  
+    .noticia-card {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #f8f8f8;
+    }
+  
+    .noticia-card p {
+      display: none;
+    }
+  
+    .noticia-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    .noticia-card h2 {
+      font-size: 1.1rem;
+      text-align: center;
+      margin: 0;
+    }
+  }
