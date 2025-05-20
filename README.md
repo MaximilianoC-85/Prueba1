@@ -1,4 +1,4 @@
-# NotiHoy - Portada de Diario
+# RsTimes - Portada de Diario
 
 Este proyecto es una portada de diario digital ficticia desarrollada con HTML5, CSS3 (Flexbox) y siguiendo el enfoque Mobile First con diseño responsive.
 
