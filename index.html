@@ -21,10 +21,75 @@
                     <li><a href="#">Tecnología</a></li>
                     <li><a href="#">Internacionales</a></li>
                 </ul>
+                <button id="btn-suscribirse">Suscribite</button>
                 <div class="hamburger">☰</div>
             </nav>
         </div>
     </header>
+<!-- Modal de Suscripción -->
+<div id="modal-suscripcion" class="modal">
+  <div class="modal-content">
+    <span class="cerrar">&times;</span>
+    <h2 id="titulo-dinamico">Suscribite a RsTimes</h2>
+    <form id="form-suscripcion" novalidate>
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" />
+          <span class="error" id="error-nombre"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+          <span class="error" id="error-email"></span>
+        </div>
+        <div class="form-group">
+          <label for="contrasena">Contraseña</label>
+          <input type="password" id="contrasena" />
+          <span class="error" id="error-contrasena"></span>
+        </div>
+        <div class="form-group">
+          <label for="repetir-contrasena">Repetir contraseña</label>
+          <input type="password" id="repetir-contrasena" />
+          <span class="error" id="error-repetir-contrasena"></span>
+        </div>
+        <div class="form-group">
+          <label for="edad">Edad</label>
+          <input type="number" id="edad" />
+          <span class="error" id="error-edad"></span>
+        </div>
+        <div class="form-group">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" />
+          <span class="error" id="error-telefono"></span>
+        </div>
+        <div class="form-group">
+          <label for="direccion">Dirección</label>
+          <input type="text" id="direccion" />
+          <span class="error" id="error-direccion"></span>
+        </div>
+        <div class="form-group">
+          <label for="ciudad">Ciudad</label>
+          <input type="text" id="ciudad" />
+          <span class="error" id="error-ciudad"></span>
+        </div>
+        <div class="form-group">
+          <label for="codigo-postal">Código Postal</label>
+          <input type="text" id="codigo-postal" />
+          <span class="error" id="error-codigo-postal"></span>
+        </div>
+        <div class="form-group">
+          <label for="dni">DNI</label>
+          <input type="text" id="dni" />
+          <span class="error" id="error-dni"></span>
+        </div>
+      </div>
+      <div class="form-actions">
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </div>
+</div>
 
     <main class="main-content">
         <aside class="ads">
@@ -85,5 +150,6 @@
         <p>&copy; 2025 RsTimes. Todos los derechos reservados.</p>
     </footer>
 </body>
+<script src="script.js"></script>
 
 </html>
